@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false }))
 
 
 
-app.get('/task', async (req, res) => {
+app.get('/api', async (req, res) => {
     try {
         const { slack_name, track } = req.query
         const currentDay = moment().utc().format('dddd')
