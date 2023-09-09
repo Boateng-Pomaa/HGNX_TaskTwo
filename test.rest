@@ -1,0 +1,5 @@
+@url = http://localhost:5000
+
+
+##
+GET http://localhost:5000/task?slack_name=Linda%20Pomaa&track=backend. HTTP/1.1
