@@ -14,7 +14,7 @@ app.get('/api', async (req, res) => {
     try {
         const { slack_name, track } = req.query
         const currentDay = moment().utc().format('dddd')
-        const utcTime = moment().utc().add(2, 'minutes').format('YYYY-MM-DDTHH:mm:ss') + 'Z'
+        const utcTime = moment().utc().format('YYYY-MM-DDTHH:mm:ss') + 'Z'
         const FileUrl = 'https://github.com/Boateng-Pomaa/HGNX_TaskTwo/blob/master/taskTwo.js'
         const RepoUrl = 'https://github.com/Boateng-Pomaa/HGNX_TaskTwo'
         const statusCode = 200
