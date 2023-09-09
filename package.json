@@ -6,10 +6,10 @@
   },
   "description": "first task",
   "type": "module",
-  "main": " node taskTwo.js",
+  "main": "taskTwo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "taskTwo.js"
+    "start": "node taskTwo.js"
   },
   "author": "Boateng Pomaa Linda",
   "license": "ISC",
