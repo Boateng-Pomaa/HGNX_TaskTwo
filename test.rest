@@ -2,8 +2,8 @@
 
 
 ##
-GET http://localhost:5000/task?slack_name=Linda%20Pomaa&track=backend. HTTP/1.1
+GET http://localhost:5000/api?slack_name=Linda%20Pomaa&track=backend. HTTP/1.1
 
 ###
 
-http://task2link.onrender.com/task?slack_name=Linda%20Pomaa&track=backend
+http://task2link.onrender.com/api?slack_name=Linda%20Pomaa&track=backend
