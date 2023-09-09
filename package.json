@@ -1,6 +1,9 @@
 {
   "name": "hgnx_tasktwo",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.16.0"
+  },
   "description": "first task",
   "type": "module",
   "main": "taskTwo.js",
