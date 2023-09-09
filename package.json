@@ -6,7 +6,7 @@
   },
   "description": "first task",
   "type": "module",
-  "main": "taskTwo.js",
+  "main": " node taskTwo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "taskTwo.js"
